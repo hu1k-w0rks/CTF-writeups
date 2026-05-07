@@ -4,9 +4,8 @@ Q1. The attacker successfully executed a command to download the first stage of 
 
 A. Download lab files -> open the txt file -> Edit it to get the desired output - ( http://45.126.209.4:222/mdm.jpg )
 
-|------------------------------------------------------------------------------------------------------------------------------------|
-| <img width="1331" height="153" alt="image" src="https://github.com/user-attachments/assets/a587d511-3dc4-4233-94d2-59ac1c7519bc" />| <br>
-|------------------------------------------------------------------------------------------------------------------------------------|
+------------------------------------------------------------------------------------------------------------------------------------
+ <img width="1331" height="153" alt="image" src="https://github.com/user-attachments/assets/a587d511-3dc4-4233-94d2-59ac1c7519bc" /> <br>
 
 Q2. Which hosting provider owns the associated IP address?
 
