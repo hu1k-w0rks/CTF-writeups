@@ -5,23 +5,22 @@ Q1. The attacker successfully executed a command to download the first stage of 
 A. Download lab files -> open the txt file -> Edit it to get the desired output - ( http://45.126.209.4:222/mdm.jpg )
 
 ------------------------------------------------------------------------------------------------------------------------------------
-<img width="1331" height="153" alt="image" src="https://github.com/user-attachments/assets/a587d511-3dc4-4233-94d2-59ac1c7519bc" />
+<img width="1331" height="153" alt="image" src="https://github.com/user-attachments/assets/a587d511-3dc4-4233-94d2-59ac1c7519bc" /> <br>
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
-Q2. Which hosting provider owns the associated IP address?
-
+Q2. Which hosting provider owns the associated IP address? <br>
 
 A. Do whois lookup for the obtained IP address - ( reliableSite.net )
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 <img width="844" height="124" alt="image" src="https://github.com/user-attachments/assets/df8882e4-01dd-42bd-9c1b-04a0f9b34857" /> <br>
 
-Q3.  By analyzing the malicious scripts, two payloads were identified: a loader and a secondary executable. What is the SHA256 of the malware executable?
-
+Q3.  By analyzing the malicious scripts, two payloads were identified: a loader and a secondary executable. What is the SHA256 of the malware executable? <br>
 
 A. Open the image file there are 2 hexstrings, decode it and upload the file to Virustotal - ( 1eb7b02e18f67420f42b1d94e74f3b6289d92672a0fb1786c30c03d68e81d798 )
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 <img width="1308" height="73" alt="image" src="https://github.com/user-attachments/assets/b390f0be-9b3d-4ef4-bf2e-bb44f8929494" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
