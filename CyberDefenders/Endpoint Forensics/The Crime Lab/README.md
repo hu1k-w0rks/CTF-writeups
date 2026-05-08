@@ -1,4 +1,4 @@
-Tools Used: ALEAPP GUI
+**Tools Used: ALEAPP GUI** <br><br>
 
 Q1. Based on the accounts of the witnesses and individuals close to the victim, it has become clear that the victim was interested in trading. This has led him to invest all of his money and acquire debt. Can you identify the SHA256 of the trading application the victim primarily used on his phone? <br>
 
