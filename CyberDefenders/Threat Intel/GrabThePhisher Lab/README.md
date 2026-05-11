@@ -62,7 +62,7 @@ A. In the Metamask php file search for the function that used to send the data o
 
 Q8. What is the token for accessing the channel? <br>
 
-A. Search for the token in the php file - ( 5457463144:AAG8t4k7e2ew3tTi0IBShcWbSia0Irvxm10 )
+A. Search for the token in the php file
 
 -----------------------------------------------------------------------------------------------------------------------------------
 <img width="1654" height="149" alt="image" src="https://github.com/user-attachments/assets/85c7af22-51e6-4f4d-9182-1891f8da6ea2" /> <br>
