@@ -34,10 +34,10 @@ A. search for accepted password and then sort out basing on the distinct usernam
 
 Q5. Which attacker's IP address successfully logged into the system the most number of times? <br>
 
-A.
+A. check for the accepted passwords for the compromised account and check for the ip address that logged in most of the times - ( 219.150.161.20 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1132" height="507" alt="image" src="https://github.com/user-attachments/assets/f593151a-f675-43ab-b818-69d875c8b2d3" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q6. How many requests were sent to the Apache Server? <br>
@@ -50,26 +50,26 @@ A. The access log in the apache directory contains the number of requests sent -
 
 Q7. How many rules have been added to the firewall? <br>
 
-A.
+A. search for the linux firewall system and filter out accepted/allowed commands and find the distinct ports - ( 6 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1526" height="211" alt="image" src="https://github.com/user-attachments/assets/6c38c573-1158-4d73-b118-d6bafdbfa366" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q8. One of the downloaded files on the target system is a scanning tool. What is the name of the tool? <br>
 
-A.
+A. The term.log contains the FULL terminal session output, installation messages/errors, search for tool related to scanning - ( nmap )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="988" height="552" alt="image" src="https://github.com/user-attachments/assets/953beb57-d400-45d0-95ba-74fb6aaacc8c" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q9. When was the last login from the attacker with IP 219.150.161.20? Format: MM/DD/YYYY HH:MM:SS <br>
 
-A.
+A. Search the last Accepted password event for the ip adrress and check the file modification time of the auth.log file and correlate both - ( 2010-04-19 05:56 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1279" height="192" alt="image" src="https://github.com/user-attachments/assets/7fde3b70-5dd4-4719-853b-9e06090d5f09" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q10. The database showed two warning messages. Please provide the most critical and potentially dangerous one. <br>
@@ -90,8 +90,8 @@ A. search for useradd in auth.log and filter out the time needed - ( wind3str0y 
 
 Q12. Few attackers were using a proxy to run their scans. What is the corresponding user-agent used by this proxy? <br>
 
-A.
+A. User-Agent can be found for web responses sent and the every web response returns a status code, so filter out the status codes from the apache directory and then find the unique user-agent - ( pxyscand/2.1 ) 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="988" height="260" alt="image" src="https://github.com/user-attachments/assets/af90094b-a6fe-4d52-8e3c-6e38b4eef4c0" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
