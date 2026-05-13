@@ -1,4 +1,4 @@
-**Tools Used: Linux command line (grep, head, )** <br><br><br>
+**Tools Used: Linux command line ( grep, head, awk, sort, uniq)** <br><br><br>
 
 Q1. Which service did the attackers use to gain access to the system? <br>
 
