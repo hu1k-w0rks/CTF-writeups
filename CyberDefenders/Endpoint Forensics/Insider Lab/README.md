@@ -1,6 +1,6 @@
 **Tools Used: FTK imager, linux command line** <br><br><br>
 
-**Prequesite**: Open FTK iamger, Navigate to File tab and Select the option of "Decrypt AD1 image" and decrupt the .AD1 file of the lab and choose your desired output location. Now Navigate to the Output Folder location and complete the lab. <br><br>
+**Prequesite**: Open FTK iamger, Navigate to File tab and Select the option of "Decrypt AD1 image" and decrypt the .AD1 file of the lab and choose your desired output location. Now Navigate to the Output Folder location and complete the lab. <br><br>
 
 Q1. Which Linux distribution is being used on this machine? <br>
 
