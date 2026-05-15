@@ -82,112 +82,112 @@ A. Search the info for the packet no. 204 - ( proforma-invoices.com )
 
 Q11. What is the IP of the domain in the previous question? <br>
 
-A.
+A. Check for the dns response packet associated with the previous mentioned domain - ( 217.182.138.150 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1886" height="119" alt="image" src="https://github.com/user-attachments/assets/5d59b9bc-b678-493a-9ff5-9c4378bc489e" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q12. Indicate the country to which the IP in the previous section belongs. <br>
 
-A.
+A. Do an IP lookup - ( France )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1037" height="357" alt="image" src="https://github.com/user-attachments/assets/612aa6d7-8e0a-4916-9d79-6dfdf1c458fd" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q13. What operating system does the victim's computer run? <br>
 
-A.
+A. The user-agent often reveals the details in the http response - ( Windows NT 6.1 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1895" height="120" alt="image" src="https://github.com/user-attachments/assets/a353bca6-3f69-42dc-b72e-609915d2e2db" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q14. What is the name of the malicious file downloaded by the accountant? <br>
 
-A.
+A. Check the http GET request - ( tkraw_Protected99.exe )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1755" height="92" alt="image" src="https://github.com/user-attachments/assets/79c6e876-c6fc-4de9-a28d-ba38585364a7" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q15. What is the md5 hash of the downloaded file? <br>
 
-A.
+A. Retreive the http file using the Export objects and then use md5sum to generate the md5 hash for it - ( 71826ba081e303866ce2a2534491a2f7 ) 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1039" height="92" alt="image" src="https://github.com/user-attachments/assets/a12c435a-3a05-406c-9bb0-ae3f56bcfb37" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q16. What software runs the webserver that hosts the malware? <br>
 
-A.
+A. In Wireshark, follow TCP stream from the packet number of previous question - ( LiteSpeed )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1223" height="92" alt="image" src="https://github.com/user-attachments/assets/3cddaa18-dae0-4d1f-bfe4-d30a7f36e73b" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q17.What is the public IP of the victim's computer?  <br>
 
-A.
+A. In wireshark, follow the http stream as the user tried checking his public ip address - ( 173.66.146.112 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1223" height="92" alt="image" src="https://github.com/user-attachments/assets/ffee1f7d-d7ad-4657-ba45-83668008c7a7" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q18. In which country is the email server to which the stolen information is sent? <br>
 
-A.
+A. Do IP lookup for the obtained ip address - ( United States )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1038" height="357" alt="image" src="https://github.com/user-attachments/assets/22fddcff-fb20-42a2-af39-bb4161688664" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q19. Analyzing the first extraction of information. What software runs the email server to which the stolen data is sent? <br>
 
-A.
+A. As it is an email server check the SMTP response parameters - ( Exim 4.91 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1898" height="110" alt="image" src="https://github.com/user-attachments/assets/81c6fc47-f639-4d56-9ba2-a3a1d1a4c879" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q20. To which email account is the stolen information sent? <br>
 
-A.
+A. As the information is being sent the source ip would be the most active computer's ip and search for the receiver's email address - ( sales.del@macwinlogistics.in )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1744" height="234" alt="image" src="https://github.com/user-attachments/assets/12b7b477-c036-46f3-8263-d5e844ca5dd2" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q21. What is the password used by the malware to send the email? <br>
 
-A.
+A. Search for the keyword 'pass' in the smtp packets and decode the value - ( Sales@23 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1509" height="333" alt="image" src="https://github.com/user-attachments/assets/074cf699-170e-47fb-9c94-5312757d67c9" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q22. Which malware variant exfiltrated the data? <br>
 
-A.
+A. In the SMTP traffic filter out packets with source ip 10.4.10.132 and then follow tcp stream - ( Reborn v9 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1595" height="143" alt="image" src="https://github.com/user-attachments/assets/9a86f301-5bec-402b-8c4c-48660b35b305" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q23. What are the bankofamerica access credentials? (username:password) <br>
 
-A.
+A. In the IMF traffic, in the line-based text data check under url == bankofamerica
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="504" height="203" alt="image" src="https://github.com/user-attachments/assets/b22c9a4e-7d6b-42b7-b652-f2387960a724" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 Q24. Every how many minutes does the collected data get exfiltrated? <br>
 
-A.
+A. check the interval gap between the IMF data packets [ there is an approximate gap of 600 seconds which is equal to 10 minutes] - ( 10 )
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-<br>
+<img width="1033" height="233" alt="image" src="https://github.com/user-attachments/assets/e16aa123-d8f4-45db-ba78-908ecb34cd9c" /> <br>
 ------------------------------------------------------------------------------------------------------------------------------------------
