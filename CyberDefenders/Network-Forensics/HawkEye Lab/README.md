@@ -1,4 +1,4 @@
-**Tools Used: Wireshark, tshark, linux command line - ( head, tail, grep )** <br><br><br>
+**Tools Used: Wireshark, tshark, linux command line - ( head, tail, grep, sed, nl, wc )** <br><br><br>
 
 Q1. How many packets does the capture have? <br>
 
