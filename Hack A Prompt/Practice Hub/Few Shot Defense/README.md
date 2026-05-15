@@ -14,4 +14,4 @@ Start with small like keep the First work same and then Gradually use similar wo
 
 After Gradual improvement the exact phrase we get the exact phrase we needed.
 
-<img width="913" height="629" alt="image" src="https://github.com/user-attachments/assets/69060cff-4555-4ec8-a29f-2b24445be65d" />
+<img width="913" height="629" alt="image" src="https://github.com/user-attachments/assets/4b693cf5-5719-4dc6-9b65-d7a20ebd5639" />
